@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.logo{
+   height: 5.625rem;
+width: 6.25rem;
+margin-left: 1.25rem; 
+margin-top: 0.25rem;
+/* background-color: #d5d4d0; */
+}
+
+.body{
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+    background: #d5d4d0;
+    
+}
+.nav{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins ;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+   margin-right: 6.25rem;
+   font-size: 4rem;
+   
+   
+}
+
+.listitem{
+    margin: 1.875rem;
+    font-size: 1.187rem;
+    font-family: Poppins ;
+    transition: transform 400ms;
+   
+}
+
+.listitem:hover{
+    color: #fff;
+    /* background-color: rgb(26, 25, 25); */
+    border-radius: 0.125rem;
+    transform: scale(1.08);
+}
+
+.cartrow{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    
+}
+
+.cartrowitem{
+    margin-right: 8.125rem;
+    padding: 0.187rem;
+    height: 2.5rem;
+    background-color:#fff;
+    border: solid #fff;
+    border-radius: 0.375rem;
+    font-family: Poppins ;
+    font-weight:lighter;
+    transition: transform 400ms;
+    font-size: 1rem;
+}
+
+.cartrowitem:hover{
+transform: scale(1.08);
+}
+
+
+.icon{
+    height: 1.87rem;
+    width: 1.87rem;
+    margin-top: 0.437rem;
+    margin-right: 0.312rem;
+}
+
+@media screen and (max-width: 760px) {
+    .logo{
+        height: 2.625rem;
+        width: 4.25rem;
+        margin-left: 1.25rem; 
+        margin-top: .8rem;
+    }
+
+    .listitem{
+        margin: 0.7rem;
+        font-size: 0.49rem;
+        margin-top: 1.3rem;
+        padding: -3px;
+    }
+    
+    .cartrow{
+        justify-content: end;  
+        margin-top: 0.4rem;
+    }
+
+    
+.cartrowitem{
+    margin: 8px;
+    height: 1.5rem;
+    font-size: 0.5rem;
+}
+
+.icon{
+    height: 1.7rem;
+    width: 1.4rem;}
+
+}

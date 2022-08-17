@@ -1,0 +1,154 @@
+.Dropdownlist{
+    display: grid;
+    margin-top: 1.875rem;
+    grid-template-columns: repeat(4,1fr);
+    height: 20rem;
+}
+
+.Dropdown1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: black;
+    padding: 2.5rem;
+}
+
+
+.contact{
+    background-color: black;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 0.88rem;
+}
+
+.headline{
+background-color: black;
+margin-bottom: 2.5rem;
+margin-top: 2.5rem;
+font-size: 1.3rem;
+}
+
+
+.headline2{
+    background-color: black;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+
+.headline3{
+    background-color: black;
+    padding-bottom: 0.5rem;
+}
+
+.headline3:hover{
+    color: gray;
+
+}
+.contact1{
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    /* margin-left: 14px; */
+    font-family: Poppins;
+}
+
+.logo{
+margin-bottom:1.25rem;
+height: 5.625rem;
+width: 6.25rem;
+}
+
+.newsletter{
+margin-bottom: 2.5rem;
+margin-top: 2.5rem;
+background-color: black;
+font-size: 1.3rem;
+margin-left: 1.56rem;
+
+}
+
+.social{
+    list-style: none;
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.socialicon{
+background-color :black;
+color: #fff;
+border: black;
+height: 1.68rem;
+width: 1.68rem;
+/* padding: 10px; */
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    margin-top: 3.56rem;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 760px){
+    .Dropdownlist{
+ 
+        margin-top: 0.875rem;
+        height: 16rem;
+    }
+
+    .Dropdown1{
+        color: #fff;
+        background-color: black;
+        padding: 0.7rem;
+    }
+    
+.socialicon{
+height: 1rem;
+width: 1rem;
+}
+    
+.contact{
+    margin-left: 0.88rem;
+    font-size: 0.5rem;
+}
+    .headline{
+        font-size: 0.6rem; }
+  
+    .headline2{
+        font-size: 0.3rem;
+    }
+    
+    .headline3{
+        padding-bottom: 0.6rem;
+        font-size: 0.5rem;
+    }
+      
+    .copyright{
+        margin-top: 0.09rem;
+        font-size: .7rem;
+    }
+    .logo{
+        margin-bottom:1.25rem;
+        height: 4.625rem;
+        width: 4.25rem;
+        }
+        
+        .newsletter{
+        margin-bottom: 1rem;
+        font-size: 0.7rem;
+        margin-left: 0.46rem;
+        
+        }
+
+        .contact1{
+            font-size: 0.6rem;
+        }
+}

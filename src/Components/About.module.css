@@ -1,0 +1,52 @@
+
+.about{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+   margin-top: 13rem;
+   margin-bottom: 8rem;
+   /* background-color: #fff; */
+
+}
+
+
+.about1{
+    font-family:'Times New Roman', Times, serif;
+font-size: 2.5rem;
+font-weight: 900;
+line-height: 1.25rem;
+
+}
+
+.about2{
+    font-size: 1.06rem;
+font-family: Poppins ;
+    text-align: center;
+   width: 100%;
+   height: 3.75rem;
+   color: #fff;
+   text-shadow: 2px 1px 16px rgba(0,0,0,0.6);
+}
+@media screen and (max-width: 760px){
+    
+.about{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    
+ }
+ 
+ 
+ .about1{
+ font-size: 2.6rem;
+ font-weight: 900;
+ line-height: 0.7rem;
+ 
+ }
+ 
+ .about2{
+     font-size: 0.8rem;
+     color: rgb(71, 69, 69);
+     color: #fff;
+     text-shadow: 2px 1px 16px rgba(0,0,0,0.6);
+ }
+}
